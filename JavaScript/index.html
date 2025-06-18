@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Hello world</h1>
+    <button onclick="buttonClicked()">change text</button>
+    <button onclick="changeColor()">change color</button>
+    <input type="text" id="name">
+    <button onclick="addName()">Add</button>
+    <ul id="list"></ul>
+
+    <script>
+        var addName =()=>{
+            var data = document.getElementById("name").value;
+            var li = document.createElement("li")
+            li.innerText = data;
+            document.getElementById("list").append(li)
+        }
+        var buttonClicked = () =>{
+            var head = document.getElementById("header");
+            head.innerHTML=head.innerHTML==="Hello Kongu"?"Hello world":"Hello Kongu"
+        }
+        var changeColor = ()=>{
+            var data=document.getElementById("header");
+            data.style.color="red";
+            data.style.fontSize="20px";
+        }
+    </script>
+</body>
+</html>

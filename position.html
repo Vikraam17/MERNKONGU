@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            height: 500px;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+        }
+        #fixed{
+            position: fixed;
+        }
+        #relative{
+            border: 2px solid green;
+            height: 500px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-color: aqua;
+        }
+        #absolute{
+            position: absolute;
+            top: 100px;
+            left: 80px;
+            background-color: brown;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sed vel nostrum quis ex veritatis tenetur
+        mollitia. Possimus alias minima suscipit quidem eligendi neque labore aliquam. Rerum ad, modi, veritatis cumque
+        hic iure delectus voluptas nulla ipsum odit quisquam sunt quod molestias corporis sit libero sequi non
+        quibusdam? Incidunt, aliquid.</p>
+    <div id="sticky">
+        <h1>Sticky</h1>
+    </div>
+    <div id="fixed">
+        <h1>fixed</h1>
+    </div>
+    <div id="relative">
+        <h1>Relative</h1>
+        <div id="absolute">
+            <h1>Absolute</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
