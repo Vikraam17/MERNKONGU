@@ -1,0 +1,13 @@
+.LinkHook{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: crimson;
+    font-weight: 600;
+    font-size: larger;
+    margin: 10px;
+}
+.LinkHook:Hover{
+    color: green;
+    text-decoration:underline;
+}

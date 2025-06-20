@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    background-color: brown;
+    padding: 10px;
+    justify-content: space-around;
+}
+.Link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: teal;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+.Link:hover{
+    background-color: seagreen;
+    color: white;
+}
