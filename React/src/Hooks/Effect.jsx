@@ -20,6 +20,7 @@ const Effect = () => {
     }
   return (
     <div>
+        
         <h1>{count}</h1>
         <button onClick={handleDecrement}>Decrement</button>
         <button onClick={handleReset}>Reset</button>

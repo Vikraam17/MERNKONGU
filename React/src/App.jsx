@@ -12,6 +12,8 @@ import Hooks from './Pages/Hooks'
 import State from './Hooks/State'
 import Effect from './Hooks/Effect'
 import Effect2 from './Hooks/Effect2'
+import Ref from './Hooks/Ref'
+import Reducer from './Hooks/Reducer'
 
 const App = () => {
   var fruits = ["Apple","Banana","Orange"];
@@ -24,7 +26,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home items = {fruits} users={user}/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/about' element={<About items = {fruits} users={user}/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/counter' element={<Counter/>}/>
@@ -34,6 +36,8 @@ const App = () => {
         <Route path='/effect' element={<Effect/>}/>
         <Route path='/effect2' element={<Effect2/>}/>
         <Route path='/child' element={<Child name="viky" phnNum="9876543210" Dept="IT"/>}/>
+        <Route path='/ref' element={<Ref/>}/>
+        <Route path='/reducer' element={<Reducer/>}/>
       </Routes>
     </div>
   )
