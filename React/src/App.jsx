@@ -14,6 +14,7 @@ import Effect from './Hooks/Effect'
 import Effect2 from './Hooks/Effect2'
 import Ref from './Hooks/Ref'
 import Reducer from './Hooks/Reducer'
+import Todo from './components/Todo'
 
 const App = () => {
   var fruits = ["Apple","Banana","Orange"];
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/child' element={<Child name="viky" phnNum="9876543210" Dept="IT"/>}/>
         <Route path='/ref' element={<Ref/>}/>
         <Route path='/reducer' element={<Reducer/>}/>
+        <Route path='/todo' element={<Todo/>}/>
       </Routes>
     </div>
   )
