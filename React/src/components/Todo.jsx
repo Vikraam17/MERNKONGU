@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import axios from 'axios'
-const API = 'http://localhost:3000'
+const API = 'https://mernkongu.onrender.com'
 
 const Todo = () => {
     const [task,setTask]=useState('');
